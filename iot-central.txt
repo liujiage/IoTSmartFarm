@@ -1,0 +1,7 @@
+python -m pip install requests
+
+#Using Azure four keys information
+device_id = "< Enter in a device identity, can be any valid name and does not need to be already registered in IoT Central >"
+scope_id = "< Enter the scope identity for your IoT Central application, found in Administration -> Device connection >"
+group_symmetric_key = "< Enter the Group SAS token for your IoT Central application, found in Administration -> Device connection >"
+model_id = "< Enter the model identity for the device model you would like the device identified with, found in Device templates -> select the device template -> select the model interface -> click 'View identity' >"
