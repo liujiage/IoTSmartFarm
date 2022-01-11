@@ -9,6 +9,3 @@ Class Digram
 Key Flow Chart
 ![image](https://user-images.githubusercontent.com/183577/148867549-047558b9-27cc-4198-aca3-d05570694c35.png)
 
-Hardware
-![image](https://user-images.githubusercontent.com/183577/148867631-7a403344-ad69-43f8-83d8-c3e39ab149fd.png)
-
