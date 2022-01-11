@@ -1,0 +1,73 @@
+[
+  {
+    "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:raining;1",
+        "@type": [
+          "Telemetry",
+          "State"
+        ],
+        "displayName": {
+          "en": "raining"
+        },
+        "name": "raining",
+        "schema": {
+          "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:raining:schema;1",
+          "@type": "Enum",
+          "enumValues": [
+            {
+              "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:raining:schema:no;1",
+              "displayName": {
+                "en": "no"
+              },
+              "enumValue": 1,
+              "name": "no"
+            },
+            {
+              "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:raining:schema:yes;1",
+              "displayName": {
+                "en": "yes"
+              },
+              "enumValue": 0,
+              "name": "yes"
+            }
+          ],
+          "valueSchema": "integer"
+        }
+      },
+      {
+        "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:humidity;1",
+        "@type": [
+          "Telemetry",
+          "Humidity"
+        ],
+        "displayName": {
+          "en": "humidity"
+        },
+        "name": "humidity",
+        "schema": "float"
+      },
+      {
+        "@id": "dtmi:liujiageIotCentral:liujiageSmartFarmTemplate6f1:temperature;1",
+        "@type": [
+          "Telemetry",
+          "Temperature"
+        ],
+        "displayName": {
+          "en": "temperature"
+        },
+        "name": "temperature",
+        "schema": "float"
+      }
+    ],
+    "displayName": {
+      "en": "liujiage-smart-farm-template"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]
